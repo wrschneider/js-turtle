@@ -7,4 +7,4 @@ Main enhancements I added are:
 
 You can access this live at
 
-https://rawgit.com/wrschneider99/js-turtle/master/turtle.html
+https://rawgit.com/wrschneider/js-turtle/master/turtle.html
