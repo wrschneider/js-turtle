@@ -31,6 +31,7 @@
               repeat(n, action) <br/>
               wrap(bool) <br/>
               animate(action,ms) <br/>
+              <a href="examples/" target="_new">See some other examples</a><br/>
             </code>
          </div> <!-- leftcolumn -->
          <div id="midcolumn">
@@ -45,7 +46,8 @@
          </div> <!-- midcolumn -->
          <div id="rightcolumn">
             <h4>Definitions</h4>
-            <textarea id="definitions" rows="20">
+            <div style="position:relative; height: 900px" id="editor-parent">
+            <div id="editor" style="position:absolute; top:0; left:0; bottom: 0; right: 0">
 // Define helper functions here.
 // For example:
 
@@ -64,9 +66,16 @@ function demo() {
       right(36);
    }
 }
-            </textarea>
+            </div>
+            </div>
          </div> <!-- rightcolumn -->
       </div> <!-- wrap-->
       <script type="text/javascript" src="turtle.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.0/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = window.editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.getSession().setMode("ace/mode/javascript");
+</script>
    </body>
 </html>

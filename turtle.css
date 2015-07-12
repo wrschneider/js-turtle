@@ -1,4 +1,4 @@
-body,
+    body,
 html {
    margin:0;
    padding:0;
@@ -9,23 +9,23 @@ body h1 {
 }
 
 #wrap {
-   width:1000px;
+   width:1100px;
    margin:0 auto;
 }
 
 #leftcolumn {
    float:left;
-   width:30%;
+   width:20%;
 }
 
 #midcolumn {
    float:left;
-   width:35%;
+   width:40%;
 }
 
 #rightcolumn {
    float:right;
-   width:35%;
+   width:40%;
 }
 
 #turtlecanvas {
